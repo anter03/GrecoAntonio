@@ -13,8 +13,8 @@ public class GrecoClass {
 	 */
 	
 	public float cognomeMet (int b, int e) {
-		int val1=1;
-		for (int i=1; i<=b; i++){
+		int val1=b;
+		for (int i=1; i<e; i++){
 		val1 = val1 * b;
 		}
 		return val1;
@@ -26,7 +26,7 @@ public class GrecoClass {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
  GrecoClass g=new GrecoClass();
- System.out.println(g.cognomeMet(1, 1));
+ System.out.println(g.cognomeMet(3, 7));
 	}
 
 }
