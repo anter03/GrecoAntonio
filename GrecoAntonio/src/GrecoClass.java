@@ -13,12 +13,14 @@ public class GrecoClass {
 	 */
 	
 	public float cognomeMet (int b, int e) {
-		int val1=b;
+		int val1=b;  // val1 deve essere uguale a b non a uno
 		for (int i=1; i<e; i++){
 		val1 = val1 * b;
 		}
 		return val1;
 		}
+	//nel for bisognava iserire e al posto di b inoltre bisognava cambiare la condizione e inserire i<e e
+	//non i<=e
 	
 	
 	
